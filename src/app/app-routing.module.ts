@@ -6,7 +6,7 @@ import { EpisodeComponent } from './episode/episode.component';
 import { LocationComponent } from './location/location.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', component: CharacterComponent },
   { path: 'characters', component: CharacterComponent },
   { path: 'episodes', component: EpisodeComponent },
   { path: 'locations', component: LocationComponent }
