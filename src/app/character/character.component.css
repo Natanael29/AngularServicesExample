@@ -1,0 +1,13 @@
+.example-card {
+    width: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+.example-header-image {
+    background-size: cover;
+}
+
+.characters-container {
+  margin-top: 2rem;
+}
+  
